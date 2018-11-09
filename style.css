@@ -184,6 +184,8 @@ a {
 
     @supports (grid-area: auto) and (writing-mode: sideways-lr) {
         .tagline-2 {
+            -webkit-writing-mode: sideways-lr;
+            -ms-writing-mode: sideways-lr;
             writing-mode: sideways-lr;
             transform: none;
             grid-column: 1;
